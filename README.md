@@ -30,8 +30,9 @@ public class SobreMim {
     public String biografia() {
         return """
                 Olá! Como vai? Me chamo Vitor Hugo, tenho 21 anos e sou do interior de São Paulo.
-                No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera e também faço cursos complementares,
-                nos quais aplico e aprimoro meus conhecimentos em projetos práticos.
+                No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera,
+                também faço cursos complementares, nos quais aplico e aprimoro meus conhecimentos
+                em projetos práticos.
                 """;
     }
 
