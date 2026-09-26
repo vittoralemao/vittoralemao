@@ -28,11 +28,15 @@ public class SobreMim {
     private final String idiomas     = "Português 🇧🇷 | English (learning) 🇺🇸";
 
     public String biografia() {
-        return "Olá! Como vai? Me chamo Vitor Hugo, tenho 21 anos e sou do interior de São Paulo. No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera e também faço cursos complementares, nos quais aplico e aprimoro meus conhecimentos em projetos.";
+        return """
+                Olá! Como vai? Me chamo Vitor Hugo, tenho 21 anos e sou do interior de São Paulo.
+                No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera e também faço cursos complementares,
+                nos quais aplico e aprimoro meus conhecimentos em projetos práticos.
+                """;
     }
 
     public String filosofia() {
-        return "Se alguém teve o esforço de construir, eu consigo ter o esforço de aprender.";
+        return "Se alguém construiu, quem sou eu para não aprender?";
     }
 }
 ```
