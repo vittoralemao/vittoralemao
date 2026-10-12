@@ -20,7 +20,7 @@
 ## `SobreMim.java`
 
 ```java
-public record SobreMim {
+public class SobreMim {
 
     private final String cargo       = "Desenvolvedor Back-end Java";
     private final String[] stack     = {"Java", "Spring Boot", "Spring Data JPA",
