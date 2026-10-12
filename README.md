@@ -20,16 +20,16 @@
 ## `SobreMim.java`
 
 ```java
-public class SobreMim {
+public record SobreMim {
 
     private final String cargo       = "Desenvolvedor Back-end Java";
-    private final String[] stack     = {"Java", "Spring Boot", "Spring Data JPA", "PostgreSQL", "Docker"};
-    private final String aprendendo  = "Spring Security (JWT) e Spring Cloud / AWS";
+    private final String[] stack     = {"Java", "Spring Boot", "Spring Data JPA",
+                                        "Spring Security (JWT)", "PostgreSQL", "Docker", "AWS"};
     private final String idiomas     = "Português 🇧🇷 | English (learning) 🇺🇸";
 
     public String biografia() {
         return """
-                Olá! Como vai? Me chamo Vitor Hugo, tenho 21 anos e sou do interior de São Paulo.
+                Olá! Como vai? Me chamo Vítor Hugo, tenho 21 anos e sou do interior de São Paulo.
                 No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera e
                 também faço cursos complementares, nos quais aplico e aprimoro meus conhecimentos
                 em projetos práticos.
