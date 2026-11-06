@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Vítor Hugo, desenvolvedor back-end Java e Spring Boot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1d1029"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ea5b0c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ea5b0c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="barra" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A2564"/>
+      <stop offset="1" stop-color="#ea5b0c"/>
+    </linearGradient>
+    <pattern id="pontos" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="280" rx="10" fill="url(#bg)"/>
+  <rect width="900" height="280" rx="10" fill="url(#pontos)"/>
+  <circle cx="740" cy="144" r="170" fill="url(#brilho)"/>
+
+  <!-- identidade -->
+  <text x="60" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="3" fill="#f5f0fa">VÍTOR HUGO</text>
+  <rect x="60" y="130" width="380" height="4" rx="2" fill="url(#barra)"/>
+  <text x="62" y="166" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="3" fill="#ea5b0c">BACK-END JAVA · SPRING BOOT</text>
+  <text x="62" y="200" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="14" fill="#8b949e">APIs REST camada por camada: do banco à nuvem</text>
+  <text x="62" y="236" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="12" fill="#484f58">@RestController · @Service · @Repository</text>
+
+  <!-- fluxo de uma requisição -->
+  <g font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="13" text-anchor="middle">
+    <g stroke="#30363d" stroke-width="1.5">
+      <line x1="730" y1="71" x2="730" y2="85"/>
+      <line x1="730" y1="115" x2="730" y2="129"/>
+      <line x1="730" y1="159" x2="730" y2="173"/>
+      <line x1="730" y1="203" x2="730" y2="217"/>
+    </g>
+
+    <rect x="640" y="41" width="180" height="30" rx="8" fill="#ea5b0c" fill-opacity="0.14" stroke="#ea5b0c" stroke-width="1.5"/>
+    <text x="730" y="61" fill="#f5f0fa">Cliente</text>
+
+    <rect x="640" y="85" width="180" height="30" rx="8" fill="#4A2564" fill-opacity="0.45" stroke="#8a5bb5" stroke-width="1.25"/>
+    <text x="730" y="105" fill="#e6edf3">Controller</text>
+
+    <rect x="640" y="129" width="180" height="30" rx="8" fill="#4A2564" fill-opacity="0.45" stroke="#8a5bb5" stroke-width="1.25"/>
+    <text x="730" y="149" fill="#e6edf3">Service</text>
+
+    <rect x="640" y="173" width="180" height="30" rx="8" fill="#4A2564" fill-opacity="0.45" stroke="#8a5bb5" stroke-width="1.25"/>
+    <text x="730" y="193" fill="#e6edf3">Repository</text>
+
+    <rect x="640" y="217" width="180" height="30" rx="8" fill="#ea5b0c" fill-opacity="0.14" stroke="#ea5b0c" stroke-width="1.5"/>
+    <text x="730" y="237" fill="#f5f0fa">PostgreSQL</text>
+  </g>
+
+  <!-- trilho da requisição: desce como request, sobe como response -->
+  <line x1="850" y1="56" x2="850" y2="232" stroke="#30363d" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <text x="866" y="60" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="10" fill="#8b949e" transform="rotate(90 866 60)">request  ·  response</text>
+  <circle cx="850" cy="56" r="5" fill="#ea5b0c">
+    <animate attributeName="cy" values="56;232;232;56;56" keyTimes="0;0.42;0.5;0.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#ea5b0c;#ea5b0c;#c39bdb;#c39bdb;#ea5b0c" keyTimes="0;0.42;0.5;0.92;1" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
