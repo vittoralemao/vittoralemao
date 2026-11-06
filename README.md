@@ -10,36 +10,15 @@
 
 <!-- ============ CONTATOS ============ -->
 <div align="center">
-  <a href="https://www.linkedin.com/in/vitoralemao" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:contato.vitoralemao@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/vitoralemao" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-vitoralemao-0d1117?style=for-the-badge&logo=linkedin&logoColor=ea5b0c&labelColor=21262d" alt="LinkedIn" /></a>
+  <a href="mailto:contato.vitoralemao@gmail.com"><img src="https://img.shields.io/badge/E--mail-contato.vitoralemao@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ea5b0c&labelColor=21262d" alt="E-mail" /></a>
 </div>
 
 <br>
 
-## `SobreMim.java`
-
-```java
-public class SobreMim {
-
-    private final String cargo       = "Desenvolvedor Back-end Java";
-    private final String[] stack     = {"Java", "Spring Boot", "Spring Data JPA",
-                                        "Spring Security (JWT)", "PostgreSQL", "Docker", "AWS"};
-    private final String idiomas     = "Português 🇧🇷 | English (learning) 🇺🇸";
-
-    public String biografia() {
-        return """
-                Olá! Como vai? Me chamo Vítor Hugo, tenho 21 anos e sou do interior de São Paulo.
-                No momento curso Análise e Desenvolvimento de Sistemas (ADS) na Anhanguera e
-                também faço cursos complementares, nos quais aplico e aprimoro meus conhecimentos
-                em projetos práticos.
-                """;
-    }
-
-    public String filosofia() {
-        return "Se alguém construiu, quem sou eu para não aprender?";
-    }
-}
-```
+<div align="center">
+  <img src="./assets/sobre-mim.svg" alt="SobreMim.java: Vítor Hugo, desenvolvedor back-end Java. Stack: Java, Spring Boot, Spring Data JPA, Spring Security (JWT), PostgreSQL, Docker e AWS. Cursa ADS na Anhanguera. Filosofia: se alguém construiu, quem sou eu para não aprender?" width="100%" />
+</div>
 
 ## `Stack`
 
