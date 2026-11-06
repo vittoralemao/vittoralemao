@@ -20,23 +20,6 @@
   <img src="./assets/sobre-mim.svg" alt="SobreMim.java: Vítor Hugo, desenvolvedor back-end Java. Stack: Java, Spring Boot, Spring Data JPA, Spring Security (JWT), PostgreSQL, Docker e AWS. Cursa ADS na Anhanguera. Filosofia: se alguém construiu, quem sou eu para não aprender?" width="100%" />
 </div>
 
-## `Stack`
-
-<div align="center">
-
-**Linguagem & Frameworks**
-
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven&theme=dark" />
-
-**Banco de Dados & Infra**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,docker,aws&theme=dark" />
-
-**Ferramentas**
-
-<img src="https://skillicons.dev/icons?i=idea,git,github,postman,notion&theme=dark" />
-
-</div>
 
 ## `Projeto em destaque`
 
