@@ -1,5 +1,5 @@
 <!-- ============ BANNER ============ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4A2564,100:ea5b0c&height=180&section=header&text=Vitor&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Java%20%7C%20Spring%20Boot%20Developer&descAlignY=58&descSize=18&animation=fadeIn" />
+<img src="./assets/banner.svg" alt="Vítor Hugo: desenvolvedor back-end Java e Spring Boot" width="100%" />
 
 <!-- ============ DIGITAÇÃO ============ -->
 <div align="center">
