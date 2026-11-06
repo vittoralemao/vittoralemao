@@ -22,7 +22,7 @@
   <circle cx="740" cy="144" r="170" fill="url(#brilho)"/>
 
   <!-- identidade -->
-  <text x="60" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="54" font-weight="800" letter-spacing="3" fill="#f5f0fa">VÍTOR HUGO</text>
+  <text x="60" y="112" font-family="'JetBrains Mono',monospace" font-size="45" font-weight="800" letter-spacing="3" fill="#f5f0fa">Vítor Hugo</text>
   <rect x="60" y="130" width="380" height="4" rx="2" fill="url(#barra)"/>
   <text x="62" y="166" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15" letter-spacing="3" fill="#ea5b0c">BACK-END JAVA · SPRING BOOT</text>
   <text x="62" y="200" font-family="Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="14" fill="#8b949e">APIs REST camada por camada: do banco à nuvem</text>
